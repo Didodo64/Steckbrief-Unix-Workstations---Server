@@ -38,10 +38,16 @@ body p {
     font-size: 16px;
 }
 
-body h1, h2 {
+body h1 {
     color: #00FF00;
     font: Kode Mono;
     text-align: center;
+}
+
+body h2 {
+    color: #00FF00;
+    font: Kode Mono;
+    text-align: right;
 }
 
 body header h1 {

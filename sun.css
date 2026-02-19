@@ -1,0 +1,128 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #00FF00;
+    padding: 3px;
+}
+
+a {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font: Kode Mono;
+}
+
+body {
+    margin-top: 80px;
+    background-color: #000000;
+}
+
+body header h1 {
+    color: #000000;
+    font: Kode Mono;
+    text-align: left;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid #00FF00;
+}
+
+/* Grundlayout */
+body {
+  font-family: "Kode Mono", monospace;
+  background: #000000;
+  color: #00FF00;
+  font-size: 16px;
+  margin: 0;
+  padding: 20px;
+}
+ 
+/* Überschriften */
+h1 {
+  font-size: 40px;
+  color: #00FF00;
+  margin-top: 0;
+}
+ 
+h2 {
+  font-size: 22px;
+  color: #00FF00;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+ 
+/* Container für Bild + Text */
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+ 
+/* Bilder */
+.container img,
+.image-box img {
+  width: 100%;
+  max-width: 300px;
+  border: 3px solid #00FF00;
+  border-radius: 10px;
+}
+ 
+/* Karten-Layout (falls du es nutzt) */
+.card {
+  max-width: 900px;
+  margin: auto;
+  background: #000000;
+  padding: 24px;
+  border-radius: 12px;
+  border: 2px solid #00FF00;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+}
+ 
+/* Mobile Ansicht */
+@media (max-width: 700px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+ 
+  .container {
+    flex-direction: column;
+  }
+}
+ 
+/* Listen */
+ul {
+  padding-left: 18px;
+}
+ 
+li {
+  margin-bottom: 4px;
+}
+ 
+/* Info‑Grid */
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 20px;
+}
+ 
+.label {
+  font-weight: bold;
+}
