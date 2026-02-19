@@ -30,3 +30,7 @@ body {
     display: flex;
     align-items: right;
 }
+body p {
+    color: #00FF00;
+    font: Kode Mono;
+}
