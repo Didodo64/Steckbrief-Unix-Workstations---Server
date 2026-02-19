@@ -22,3 +22,11 @@ body {
     margin-top: 80px;
     background-color: #000000;
 }
+
+#pcfotos {
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 300px;
+    display: flex;
+    align-items: right;
+}
