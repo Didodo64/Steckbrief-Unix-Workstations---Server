@@ -23,7 +23,7 @@ nav ul {
 nav a {
     color: #000000;
     text-decoration: none;
-    font: Kode Mono;
+    font: "Kode Mono";
 }
 
 body {
@@ -34,25 +34,25 @@ body {
 
 body p {
     color: #00FF00;
-    font: Kode Mono;
+    font: "Kode Mono";
     font-size: 16px;
 }
 
 body h1 {
     color: #00FF00;
-    font: Kode Mono;
+    font: "Kode Mono";
     text-align: center;
 }
 
 body h2 {
     color: #00FF00;
-    font: Kode Mono;
+    font: "Kode Mono";
     text-align: right;
 }
 
 body header h1 {
     color: #000000;
-    font: Kode Mono;
+    font: "Kode Mono";
     text-align: left;
 }
 
