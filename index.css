@@ -27,3 +27,36 @@ body p {
     color: #00FF00;
     font: Kode Mono;
 }
+
+body h1 {
+    color: #00FF00;
+    font: Kode Mono;
+    text-align: center;
+}
+
+body header h1 {
+    color: #000000;
+    font: Kode Mono;
+    text-align: left;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid #00FF00;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.box a {
+    color: #00FF00;
+    text-decoration: underline;
+}
+
+.box img {
+    display: block;
+    margin-bottom: 10px;
+}
