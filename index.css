@@ -6,6 +6,14 @@ header {
     padding: 3px;
 }
 
+a {
+    font-size: 16px;
+}
+
+p {
+    font-size: 16px;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -33,9 +41,11 @@ body {
 body p {
     color: #00FF00;
     font: Kode Mono;
+    font-size: 16px;
 }
 
 body h1 {
+    font-size: 40px;
     color: #00FF00;
     font: Kode Mono;
     text-align: center;
