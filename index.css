@@ -23,19 +23,13 @@ body {
     background-color: #000000;
 }
 
-#pcfotos {
-    padding-top: 80px;
-    padding-left: 50px;
-    width: 300px;
-    display: flex;
-    align-items: right;
-}
+
 body p {
     color: #00FF00;
     font: Kode Mono;
 }
 
-body h1 {
+body h1, h2 {
     color: #00FF00;
     font: Kode Mono;
     text-align: center;
@@ -66,4 +60,16 @@ hr {
 .box img {
     display: block;
     margin-bottom: 10px;
+}
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+.pcfotos {
+    padding-top: 0px;
+    padding-left: 50px;
+    width: 300px;
+    display: flex;
+    
 }
