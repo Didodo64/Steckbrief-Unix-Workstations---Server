@@ -23,6 +23,13 @@ body {
     background-color: #000000;
 }
 
+#pcfotos {
+    padding-top: 80px;
+    padding-left: 50px;
+    width: 300px;
+    display: flex;
+    align-items: right;
+}
 body p {
     color: #00FF00;
     font: Kode Mono;
